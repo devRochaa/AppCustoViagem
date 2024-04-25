@@ -17,7 +17,7 @@ public partial class listarPedagios : ContentPage
             {
                 lista_pedagios.Add(p);
             }
-        }
+        } //nao terminei
     }
 
     private void lst_pedagios_ItemSelected(object sender, SelectedItemChangedEventArgs e)
