@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCustoViagem.Views.calcularViagem"
+             Title="calcularViagem">
+    <VerticalStackLayout>
+        <Label x:Name="lbl_local" Text="Local:"  />
+        <Label x:Name="lbl_destino" Text="Destino:" />
+        <Label x:Name="lbl_valor" Text="Valor:" />
+
+        <Button Text="Somar" Margin="5" x:Name="btn_sum" Clicked="btn_sum_Clicked" />
+
+        <Button Text="Calcular nova viagem" Margin="5" x:Name="btn_newViagem" Clicked="btn_newViagem_Clicked" />
+    </VerticalStackLayout>
+</ContentPage>
