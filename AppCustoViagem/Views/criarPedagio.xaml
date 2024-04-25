@@ -4,9 +4,15 @@
              x:Class="AppCustoViagem.Views.criarPedagio"
              Title="criarPedagio">
     <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+        <StackLayout>
+            <Label Text="Local:"/>
+            <Entry BindingContext="local" x:Name="txt_local"/>
+
+            <Label Text="Valor:"/>
+            <Entry BindingContext="valor"  x:Name="txt_valor" />
+
+            <Button Text="adicionar" Margin="5" x:Name="btn_enviar" Clicked="btn_enviar_Clicked"/>
+
+        </StackLayout>
     </VerticalStackLayout>
 </ContentPage>
