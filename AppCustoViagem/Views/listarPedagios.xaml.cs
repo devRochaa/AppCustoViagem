@@ -1,10 +1,14 @@
+using AppCustoViagem.Models;
+using System.Collections.ObjectModel;
+
 namespace AppCustoViagem.Views;
 
 public partial class listarPedagios : ContentPage
 {
-	public listarPedagios()
-	{
-		InitializeComponent();
+    ObservableCollection<pedagio> lista_pedagios = new ObservableCollection<pedagio>();
+    public listarPedagios()
+    {
+        InitializeComponent();
         lst_pedagios.ItemsSource = lista_pedagios;
     }
 
@@ -24,3 +28,4 @@ public partial class listarPedagios : ContentPage
     {
 
     }
+}

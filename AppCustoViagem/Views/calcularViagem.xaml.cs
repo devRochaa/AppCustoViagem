@@ -4,7 +4,9 @@ namespace AppCustoViagem.Views;
 
 public partial class calcularViagem : ContentPage
 {
-	public calcularViagem()
+    double total = 0;
+    double valor_pedagio = 0;
+    public calcularViagem()
 	{
 		InitializeComponent();
 

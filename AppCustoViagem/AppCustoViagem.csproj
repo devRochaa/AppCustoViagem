@@ -64,10 +64,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="Helpers\" />
-	</ItemGroup>
-
-	<ItemGroup>
 	  <MauiXaml Update="Views\calcularViagem.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
